@@ -17,7 +17,8 @@ public:
     {
 
         cout << "Enter the name of book" << endl;
-        cin >> bookName[count];
+        cin.get();
+        getline(cin, bookName[count]);
 
         count++;
         cout << "Enter the id of book" << endl;
@@ -29,7 +30,8 @@ public:
     {
         cout << "Enter the book to delete :" << endl;
         string rbn;
-        cin >> rbn;
+        cin.get();
+        getline(cin,rbn);
         for (int i = 0; i < count; i++)
         {
             if (bookName[i] == rbn)
