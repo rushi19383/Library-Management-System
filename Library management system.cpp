@@ -2,8 +2,8 @@
 #include <string>
 using namespace std;
 #define bookLIMIT 100
-int count = 0;
-int countid = 0;
+int count = 0 ;
+int countid = 0 ;
 
 class Library
 {
