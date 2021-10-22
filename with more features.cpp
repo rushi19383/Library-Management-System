@@ -5,6 +5,8 @@
 #include <iomanip>
 
 using namespace std;
+//Class Book
+
 
 class Book {
 	private :
@@ -125,6 +127,8 @@ void Book::view() {
 	cout<<setw(60)<<"Total Books In Library: "<<setw(5)<<getcount()<<endl;
 }
 
+
+
 int Book::getcount() {
 	int stockCount = 0;
 	for (int i=0; i<v.size(); i++) {
@@ -132,6 +136,10 @@ int Book::getcount() {
 	}
 	return stockCount;
 }
+
+//Main Function 
+
+
 
 int main() {
 	int choice;
