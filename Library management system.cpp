@@ -28,7 +28,7 @@ public:
     }
     void deletedata()
     {
-        cout << "Enter the book to delete :" << endl;
+        cout << "Enter  book to delete :" <<"\n";
         string rbn;
         cin.get();
         getline(cin,rbn);
